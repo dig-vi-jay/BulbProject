@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inconsolata" ,"sans-serif";
+    background:darkcyan;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color:greenyellow;
+
+}
+
+button{
+    display: inline-block;
+    text-decoration: none;
+    background:gold;
+    color:darkviolet;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 500ms;
+    padding: 10px;
+    z-index: 100000;
+    margin-bottom: 30px;
+}
+.main-heading h1{
+    margin-bottom: 20px;
+}
+
+
+#My_image{
+    width: 120px;
+    margin-bottom: 30px;
+
+}
